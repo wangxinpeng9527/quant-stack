@@ -1,6 +1,10 @@
 import os
+import sys
 import logging
 from datetime import datetime
+
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
 
 from app.collectors.dummy_collector import iter_url_changes
 from app.publisher import publish_signal

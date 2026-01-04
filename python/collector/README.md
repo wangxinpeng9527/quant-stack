@@ -6,6 +6,7 @@ https://www.python.org/downloads/windows/
 # Install
 cd /d D:\collector
 python -m venv venv
+venv\Scripts\pip install requests
 venv\Scripts\pip install playwright
 venv\Scripts\playwright install
 
